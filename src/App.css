@@ -1,0 +1,22 @@
+/* Estilos para el contenedor raíz */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el contenedor de la app */
+.todo-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: rgba(163, 199, 246, 0.955);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
